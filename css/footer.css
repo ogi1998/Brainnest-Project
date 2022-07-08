@@ -1,0 +1,10 @@
+.footer {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.footer__copyright {
+  color: #F9FAF8;
+  font-weight: 300;
+}

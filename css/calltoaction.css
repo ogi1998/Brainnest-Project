@@ -1,0 +1,40 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0;
+}
+.call-to-action__box {
+  background-color: #3882F6;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  border-radius: 5px;
+}
+.call-to-action__box-left {}
+.call-to-action__title {
+  font-size: 1.8rem;
+  color: #fff;
+}
+.call-to-action__desc {
+  color: #fff;
+  font-weight: 300;
+}
+
+.call-to-action__btn {
+  color: #fff;
+  border: none;
+  background-color: #3882F6;
+  padding: .5rem 2rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: .3s ease;
+}
+.call-to-action__btn:hover {
+  background-color: #fff;
+  color: #3882F6;
+  cursor: pointer;
+}
