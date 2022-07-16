@@ -8,7 +8,6 @@ function computerPlay() {
   if (randomNumber === 2) return 'rock';
   if (randomNumber === 3) return 'scissors';
 }
-
 function playerPlay() {
   let play = prompt('Please enter your move (rock, paper or scissors)');
   while (
@@ -71,7 +70,7 @@ function game() {
   }
   if (computerScore > playerScore) {
     console.log(`Computer Won! Result is: ${computerScore} - ${playerScore}`);
-  } else if (playerScore < computerScore) {
+  } else if (computerScore < playerScore) {
     console.log(`Player Won! Result is: ${playerScore} - ${computerScore}`);
   } else {
     console.log(`It's a tie! Result is: ${playerScore} - ${computerScore}`);
