@@ -1,4 +1,4 @@
-# BRAINNEST WEEK 2 - PROJECT
+# BRAINNEST WEEK 3 - PROJECT
 
 - inside this directory there are 2 files index.html and script.js
 - html file is empty (it only has import of js file)
