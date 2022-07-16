@@ -1,4 +1,5 @@
 # BRAINNEST WEEK 2 - PROJECT
 
-- inside this directory there is a directory called assignments where solutions to first 2 assignments are located
-- the third assignment (Main CSS project) is located at the root of this directory (because i need index.html at the root so its recognised by the server and automatically loaded)
+- inside this directory there are 2 files index.html and script.js
+- html file is empty (it only has import of js file)
+- js file is only using prompt and console for output and input (no DOM connection at all)
