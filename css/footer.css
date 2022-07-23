@@ -1,0 +1,17 @@
+/* FOOTER*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(55, 85, 216);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer__owner {
+  font-size: 2rem;
+  font-weight: bold;
+}

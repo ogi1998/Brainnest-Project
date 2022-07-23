@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="script.js" type="module"></script>
+  <title>Week 3 - Project</title>
+</head>
+<body>
+  <header class="header">
+      <h1 class="header__title">Rock Paper Scissors!</h1>
+  </header>
+
+  <main class="game">
+    <h2 class="game__title">Rock Paper Scissors</h2>
+    <h2 class="game__subtitle" id="game-round">Round 1</h2>
+    <h3 class="game__action-text">Choose One:</h3>
+    <div class="game__container">
+      <div class="game__buttons">
+        <button class="game__button-item" id="btn-rock" data-play="rock"><img src="./img/rock-icon.svg" alt="Rock Icon">Rock</button>
+        <button class="game__button-item" id="btn-paper" data-play="paper"><img src="./img/paper-icon.svg" alt="Rock Icon">Paper</button>
+        <button class="game__button-item" id="btn-scissors" data-play="scissors"><img src="./img/scissors-icon.svg" alt="Rock Icon">Scissors</button>
+      </div>
+      <h5 class="game__player-play" id="player-play">&nbsp;</h5>
+      <h5 class="game__computer-play" id="computer-play">&nbsp;</h5>
+      <h4 class="game__status-text" id="status-text">Won = 0 | Lost = 0 | Draw = 0</h4>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__owner">Developed by Ognjen Vujasinovic &copy;. All Rights Reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal__box">
+      <h3 class="modal__title" id="modal-text">&nbsp;</h3>
+      <button class="modal__btn" id="btn-play-again">Play Again</button>
+    </div>
+  </div>
+
+    
+</body>
+</html>

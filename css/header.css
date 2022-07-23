@@ -1,0 +1,12 @@
+/* HEADER */
+
+.header {
+  color: #fff;
+  background-color: rgb(55, 85, 216);
+  padding: 1rem 2rem;
+  margin-bottom: 10rem;
+}
+
+.header__title {
+  font-size: 4rem;
+}

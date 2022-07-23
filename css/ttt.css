@@ -1,0 +1,74 @@
+/* MAIN GAME */
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.game__title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.game__subtitle {
+  font-size: 2rem;
+}
+
+.game__action-text {
+  font-size: 2.5rem;
+  margin: 4rem 0;
+}
+.game__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.game__button-item {
+  width: 20rem;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  transition: ease .5s;
+}
+
+.game__button-item:disabled {
+  background-color: red;
+}
+.game__button-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.game__player-play {
+  color: #fff;
+  background-color: rgb(66, 201, 144);
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: .5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: .5rem 0;
+  visibility: hidden;
+}
+
+.game__computer-play {
+  color: #fff;
+  background-color: rgb(218, 70, 90);
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: .5rem;
+  border-radius: 5px;
+  padding: .5rem 0;
+  visibility: hidden;
+}
+
+.game__status-text {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}

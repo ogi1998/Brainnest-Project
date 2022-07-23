@@ -1,0 +1,11 @@
+/* ANIMATIONS */
+
+@keyframes showPlayerStatus {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+  
+}
